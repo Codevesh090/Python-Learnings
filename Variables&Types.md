@@ -88,4 +88,11 @@ Yeh objects bhi divided hai three types me based on data types :
 🟦 print()
 It is a predefined function used to print value of a variable , string or expression same like console.log()
 
+🟡 Remember : Namespace(Stack) me humesha jo variables bante hai use refrence variable kehte hai and yeh refrence variable refer karte hai Heap space me yaa toh kisi "Instance object" ko yaa kisi "Function object" ko yaa toh kisi "Class object" ko . 
+
+🟡 Remember: x = 5 or x = handleClick()        Is type ke declaration se jo "object" memory me bante hai use hum "Instance object" kehte hai . Yaani x is a refrence object which refers to a instance object 5 in heap space .
+
+Similiary , function object and class object hai , will see later.........
+
+
 🟥 Left do after 1:00:00 --------------------------------------------------------------------------------------

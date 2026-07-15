@@ -96,3 +96,4 @@ Similiary , function object and class object hai , will see later.........
 
 
 🟥 Left do after 1:00:00 --------------------------------------------------------------------------------------
+len() , id() left ----------

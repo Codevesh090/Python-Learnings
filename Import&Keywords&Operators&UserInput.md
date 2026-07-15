@@ -26,6 +26,10 @@ Yaani har python file me every variable,function and classes are reusable and ca
 
 
 
+
+
+
+
 🟦 Keywords
 🟡 Python me keywords kuch predefined or special reserved words hote hai jinka meaning compiler yaa interpreter ko pehle se hi pata hota hai .
 
@@ -50,6 +54,11 @@ False
 None (None here in python is same like Null in Javascipt)
 because they act as a assignable data to a variable , Yaani hum in keywords ko as a data bhi use kar sakte hai.
 and variables me assign bhi kar sakte hai is data ko like    x = True  or   x = False  or   x = None 
+
+
+
+
+
 
 
 🟦 Operators
@@ -208,6 +217,10 @@ It is same like as we know .
 🟨 For example : [](/Images/23.png) . Jaise "H" tha "Hello" me toh True and jab nahi tha toh False
 
 🟨 "not in" is a inward of "in" hota hai .Yaani, ulta jaise "H" tha "Hello" me toh False and jab nahi tha toh True
+
+
+
+
 
 
 🟥 Left do after 1:06:00 --------------------------------------------------------------------------------------

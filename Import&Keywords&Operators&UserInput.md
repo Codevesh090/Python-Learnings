@@ -208,6 +208,7 @@ It is same like as we know .
 🟩 In simple terms , "is" checks where x and y have same id and if yes then true else false .
                      "is not" gives the inward decision of "is" .
 
+🟩 Refrence count number - As we know heap space me same object python repeat nahi karta hai , balki uske same id ko refer kar deta hai multiple refrence variable me , toh ab ek object kitni refrence variable se connected hai , us count ko hum kehte hai "refrence count number" and python isi ko track karta rehta hai for every object in heap space and jis bhi object ka refrence count number 0 hota hai , iska matlab ab wo obejct garbage ban chuka hai , now ab python ko jab need hoti hai memory ki toh wo automatically based on that refrence count number garbage block ke andar ke object ko clear yaani delete kar deta hai yaani automatic memory ban jaati hai .
 
 
 7. Membership Operator (in , not in)
@@ -220,7 +221,38 @@ It is same like as we know .
 
 
 
+🟦 input()
+🟨 It is used to take "input" from the keyboard , 
+🟨 It always return a "str" type value matlab if we write x = input() and run and type 345 , toh kya input 345 lega keyboard se and then wo "345" as string return karega x me , yaani x me 345 as int nahi as str daal dega as input function ko kuch bhi input do wo return "str" data type me hi karta hai .
+🟨 It atmost take one argument and that argument is only be used to give direction to user to what to input .
+🟨 We use conversion function to convert input data (means "str") to desired data type . 
+🟨 Example:   [Yeh code jab sabse pehle run hoga toh 1st line chalegi and through argument(only be string and only be used to give direction to user ) that we gave will show "Enter your name" and then we wrote or gave input "Devesh Singh" , toh yaha input function Devesh Singh ko lega x me daal dega and then next line run hogi which print that x and we see "Devesh Singh" printed ](/Images/24.png) 
 
+🟡 Type conversion Rules ? 
+📀 Python me + operator ke agar dono operands "int" hai toh us time par yeh + behave as "addition operator" and yeh dono hi int ko add karke uska sum de deta hai  .
+📀 But agar + operator ke agar dono operands "str" hai toh us time par yeh + behave as "concatenation operator" and yeh dono hi strings ko combine kar deta hai as a result .
+📀 But agar + operator ke dono operands me se ek operand int hai and ek operand str hai toh us time par hume "error" milta hai , because two different data type is not additive or combined in Python .
+Example: [](/Images/25.png)
 
+🟡 How to do type conversion in python ? 
+Python me type conversion ke liye hamare paas function hai :
+1. str()        - Yeh predefined function , kisi dusare type ke data ko , string me convert kar deta hai. 
+2. int()        - Yeh predefined function , kisi dusare type ke data ko , integer me convert kar deta hai. 
+3. float()      - Yeh predefined function , kisi dusare type ke data ko , float me convert kar deta hai. 
+4. bool()       - Yeh kisi dusare type ke data ko , bool yaani true,false me convert kar deta hai. 
+5. complex()    - Yeh predefined function , kisi dusare type ke data ko , complex me convert kar deta hai. 
+6. bin()        - To convert any data to a binary number .
+7. oct()        - To convert any data into octal number .
+8. hex()        - To convert any data into hexadecimal number .
+9. ord()        - To find unicode(ASCII number) of any character .
+10. chr()        - To find any char related to a ASCII number or unicode (Python have unicode same like ASCII).
+Example : [](/Images/26.png) and [](/Images/28.png) | See the example very carefully and its message in red .
 
-🟥 Left do after 1:06:00 --------------------------------------------------------------------------------------
+🟩 Important Points:
+🟢 bool() it works on two principals : Every non-zero is True and zero is False
+                                    Every non-empty string is True and empty string "" is False 
+
+🟢 Esa nahi hai ki int converts things to integer toh wo every string ko integer me convert kar dega , nahi!
+Like if we write x = "abc" and use conversion function int(x) then hume "value error" milega kyuki value proper nahi hai , agar x ="234" hota toh conversion ho jaata , but "abc" ka toh nahi ho sakta hai as its not a proper value to convert in int . Similiary , this happens with others also like x = "abc" and then we do complex(x) we get    Value error !  .   Example: [](/Images/27.png)
+
+🟢 Program to add two numbers : [](/Images/29.png)

@@ -2,6 +2,7 @@ Python me two types of loops hote hai :
 1. "while" loop
 2. "for" loop
 
+🟩 Python does not have  "do while"  loop  like C and C++ have .
 
 
 🟦 "while" loop

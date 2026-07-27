@@ -58,4 +58,18 @@ Example : [](/Images/46.png)
 🟨 How to insert any element in a list and how to append (yaani list ke last me daalna) in a list ?
 [](/Images/54.png)
 
+🟨 Packing and Unpacking in list ?
+[](/Images/56.png)
+
+🟨 Some special Built-in functions for every iterable ?
+[](/Images/57.png)
+
+🟨 list() function ?
+[It is used for Type-conversion of different iterables to list ](/Images/58.png)
+
+🟨 comparison in list ?
+[](/Images/59.png)
+
+🟨 concatenation in list ?
+[](/Images/60.png)
 

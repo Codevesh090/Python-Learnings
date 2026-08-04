@@ -25,3 +25,6 @@ str preserves the order of string (Yaani str me position of each element matter 
 
 🟢 Comparison operator in str ?
 [Two str me comparison , based on there ASCII value hota hai](/Images/71.png)
+
+🟢 str objects method ?
+[Isme humne str class ke attributes ke baare me samajha hai like list have ](/Images/72.png) and [](/Images/73.png)

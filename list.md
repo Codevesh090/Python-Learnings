@@ -30,7 +30,7 @@ In total , list bhi ek class hai jo list objects produce karti hai , yeh array k
 
 
 🟢 Question :  How a list is saved into the memory ?
-   [tHIS IS HOW list memory me store hoti hai ](/Images/55.png)
+   [tHIS IS HOW list memory me store hoti hai ](/Images/55.png) and [](/Images/listmemory.png)
 
 
 🟨 How to create list objects ?
@@ -81,6 +81,9 @@ Example : [](/Images/46.png)
 
 🟨 list object methods ?
 [](/Images/63.png) and [](/Images/64.png) and [](/Images/65.png)
-
+🟢 Important Point : sorted() function always list hi return karta hai , no matter what type of iterable we pass in it .
+                     Jaisa bhi iterable hum paas karenge , sorted usi iterable ko sort karke uska list return kar dega .
+                     Chahe hum str paas kare yaa list yaa dict ya anything , output yaani return is a "list" only .
+                     
 🟨 list comprehension ?
 [](/Images/66.png)

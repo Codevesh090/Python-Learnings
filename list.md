@@ -71,5 +71,16 @@ Example : [](/Images/46.png)
 [](/Images/59.png)
 
 🟨 concatenation in list ?
-[](/Images/60.png)
+[Hum just like we add two numbers, Similiarly, we can add two lists also .](/Images/60.png)
 
+🟨 repetition in list ?
+[](/Images/61.png)
+
+🟨 2D list ?
+[](/Images/62.png)
+
+🟨 list object methods ?
+[](/Images/63.png) and [](/Images/64.png) and [](/Images/65.png)
+
+🟨 list comprehension ?
+[](/Images/66.png)

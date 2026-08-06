@@ -28,3 +28,18 @@ str preserves the order of string (Yaani str me position of each element matter 
 
 🟢 str objects method ?
 [Isme humne str class ke attributes ke baare me samajha hai like list have ](/Images/72.png) and [](/Images/73.png)
+
+--------------------------------------------------------------------------------------------------------------------------------
+🔶 Slicing operator 
+Slicing operator hota hai ki agar hume kisi bhi "str" yaa "list" yaa "range" yaa "tuple" yaa "bytes" yaa "bytearray" ke portion ko slice karna ho yaani todna ho , then we use slicing operator .
+
+🟡 Format of slicing operator
+[](/Images/74.png) and Examples : [I gave example for str but can do the same for list and others ](/Images/75.png)
+
+🟡 Important Points of slicing operator
+[](/Images/76.png) and its Example: [](/Images/77.png)
+
+🟡 Question on slicing operator 
+[This question I did mainly to show ki python is mainly famous and used for precise coding . So , whenever you code in python try to do precise coding only , yaani socho jitna small code ko tum likh sakte ho utna likho ](/Images/78.png)
+
+--------------------------------------------------------------------------------------------------------------------------------

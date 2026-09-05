@@ -1,6 +1,7 @@
 🟦 tuple 
 tuple is a class
 tuple is iterable 
+tuple is a sequence
 tuple is immutable (🟢 This is the main difference between a list and a tuple yaani humne ek baar tuple declare kar diya, toh hum usme changes nahi kar sakte hai | We cannot append , insert or remove any element from the tuple )
 tuple can store heterogeneous elements (like list do)
 

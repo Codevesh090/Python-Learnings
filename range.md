@@ -52,3 +52,6 @@ To understand range , we need to start from iterables.
        range(2,6) iska matlab range(2,6,1)
 
     -> Example : [](/Images/42.png)
+
+🟡 How to access range elements ?
+[We can access elements of a range same like list ](/Images/85.png)

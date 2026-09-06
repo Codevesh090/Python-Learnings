@@ -26,3 +26,15 @@ Yaani simply :     Python source code -> Converts to Bytecode through Compiler p
 
 🟦 How does variables and function executes in python ?
 🟥 Left --------- and See VariablesandTypes.md also .
+
+----------------------------------------------------------------/-------------------------------------------------------
+🟦 Types of parameters 
+1. Default Parameters
+   [What is a default parameter](/Images/127.png) and [Rule of default parameter to follow](/Images/128.png)
+2. Positional Parameters
+   [What is a positional parameter](/Images/129.png) 
+3. Keyword Parameters
+   [What is a keyword parameter](/Images/130.png) 
+4. Mixed Parameters
+   [How to use Mixed parameters: Rule 1](/Images/131.png) and [How to use Mixed parameters: Rule 2](/Images/132.png)
+----------------------------------------------------------------/-------------------------------------------------------

@@ -17,7 +17,7 @@ Yaani simply :     Python source code -> Converts to Bytecode through Compiler p
 ❇️ To run a python code we need to have python interpreter yaani Compiler part + PVM part . Then only python executes .
    Toh jab hum Python install karte hai python.org se toh us time par , hamari machine me dono hi part install ho jaata hai baaki package ke saath .
    
-❇️ [Difference between C language and Python language](/Images/124.png)
+❇️ [Difference between C language and Python language in code execution process](/Images/124.png)
 
 ❇️ [Browser se jab hum koi app download karte hai jo python me likhi gayi hai , wo kaise chalti hai . Kyuki hum toh direct app download kar rahe hai , hamare paas toh python interpreter installed hi nahi hai ? ](/Images/126.png)
 
@@ -25,8 +25,8 @@ Yaani simply :     Python source code -> Converts to Bytecode through Compiler p
 
 
 🟦 How does variables and function executes in python ?
-🟥 Left --------- and See VariablesandTypes.md also .
-
+[](/Images/133.png)  and  [](/Images/134.png)   and   [](/Images/135.png)   and    [](/Images/136.png)
+and the ultimate resource is "In folder "excalidrawcpp" SEE -> Python-function-variable-execution.excalidraw"
 ----------------------------------------------------------------/-------------------------------------------------------
 🟦 Types of parameters 
 1. Default Parameters

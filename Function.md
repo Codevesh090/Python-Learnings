@@ -23,10 +23,13 @@ Yaani simply :     Python source code -> Converts to Bytecode through Compiler p
 
 ❇️ Python me bhi compile time par "error" aata hai if it hits any Syntax Error, ese python me koi compile time nahi hota hai but when we run a python source code then through python interpreter , compile part yaa interpretation time jisme bytecode me conversion hota hai , us time par error aa jaata hai if it encounters any syntax error in our python code .
 
-
+🔶
 🟦 How does variables and function executes in python ?
 [](/Images/133.png)  and  [](/Images/134.png)   and   [](/Images/135.png)   and    [](/Images/136.png)
 and the ultimate resource is "In folder "excalidrawcpp" SEE -> Python-function-variable-execution.excalidraw"
+❇️ Python me address ko "id" bhi kehte hai .
+🔶
+
 ----------------------------------------------------------------/-------------------------------------------------------
 🟦 Types of parameters 
 1. Default Parameters

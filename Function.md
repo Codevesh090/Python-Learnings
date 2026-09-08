@@ -41,3 +41,23 @@ and the ultimate resource is "In folder "excalidrawcpp" SEE -> Python-function-v
 4. Mixed Parameters
    [How to use Mixed parameters: Rule 1](/Images/131.png) and [How to use Mixed parameters: Rule 2](/Images/132.png)
 ----------------------------------------------------------------/-------------------------------------------------------
+🟦 lambda Expression
+⭐️ lambda is a keyword and lambda expression is a expression which is syntactically restricted to a single expression .
+⭐️ Matlab lambda expression kuch nahi bus "kisi ek function ko ek line me likhne ka tareeka hai" yaa "kisi function ko ek line me banane ka tareeka hai" . For example : [](/Images/137.png) .
+⭐️ Isme hume koi "def" keyword ko use karna nahi padta hai and koi "return" keyword ka bhi use karne ki need nahi hai .
+
+🟨 Format of writing any normal function as a lambda expression ?
+⭐️ [Read Important Point also](/Images/138.png)
+
+🟨 When to use lambda function ?
+⭐️ We use this lambda expression "Only agar hamare paas koi esa function ho jisko hum ek line me represent kar sake , nahi toh we use normal function only".
+
+🟨 How to call lambda function ?
+⭐️ lambda function ko hum is do tareeko se hi sirf call kar sakte hai : [](/Images/140.png)
+
+🟨 How to use lambda function in solving Recursion problems ? 
+⭐️ [](/Images/141.png) and [](/Images/142.png)
+
+⭐️ Important POINT : [](/Images/139.png)
+
+----------------------------------------------------------------/-------------------------------------------------------

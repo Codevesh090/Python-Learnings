@@ -92,7 +92,7 @@ Example : [](/Images/12.png)
 Example : [](/Images/13.png)
 
 
-📀 + (Yeh use hota hai agar hume kinhi do number ko subtract karne ke liye )
+📀 - (Yeh use hota hai agar hume kinhi do number ko subtract karne ke liye )
 Example : [](/Images/14.png)
 
 

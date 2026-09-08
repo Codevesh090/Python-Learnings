@@ -17,7 +17,7 @@ For Example : [](/Images/1.png)
 🟦 Important Point
 🟡 Jab tak python me hum variables ke andar kuch daalte nahi hai , tab tak wo variable declare nahi hota hai aur hume <name error milta hai> . name error milne ka matlab hai ki wo variable declare nahi hua hai and hum use use karne ki try kar rahe hai .
 📀 Like in this example : [](/Images/2.png)
-📀 Humne x = x + 5 likha , toh kyuki pehle toh x+5 process hoga and then x declare hoga . But    x+5 ko process karne ke liye is x + 5 me x toh pehle declare hona chahiye na . Toh x toh humne declare hi nahi kiya tha pehle so, we get the <name error> .In total , python me sirf x likh dene se x declare nahi hoga , x = 5 yaani x me koi value daalne ke baad hi wo declare hoga .
+📀 Humne x = x + 5 likha , toh kyuki pehle toh x+5 process hoga and then x declare hoga . But    x+5 ko process karne ke liye is x + 5 me x toh pehle declare hona chahiye na . Toh x toh humne declare hi nahi kiya tha pehle so, we get the <name error> .In total , python me sirf x likh dene se x declare nahi hoga , x = 5 yaani x me koi value daalne ke baad hi wo declare hoga and initialised also.
 🟡 Python me we can change the value of a variable as well as type of variable also .
 Yaani like C me agar hum declare kar dete the " int x = 5 " toh hum baad me sirf us variable ki value change kar sakte yaani update kar sakte the like x = 6 not! its type like int to bool or some other . But in python agar hume declare kar diya x = 5 then we can update both the value and the type of the variable x = 2.8 like from int 5 to float 2.8 | 
 📀 For example : [](/Images/3.png)  and  [](/Images/4.png)
@@ -49,27 +49,32 @@ type() is a predefined function , jisme agar hum kisi variable ko as a parameter
 
 🟦 Automatic Memory Management (Now,will understand ki python me automatic memory management ka kya matlab hai)
 🟡 Toh jab hum x = 5 likhte hai . Toh Python me memory is divided in two spaces :   NameSpace | Heap Space
-🟡 Toh sabse pehle Heap space me ek memory space yaa memory block define hota hai , us block ko hum kehte hai "object" and us object me value jaati hai 5 and Namespace me bhi ek memory block banta hai jiska naam hoga "x"
-and abhi tak us block me koi value nahi gayi hai.Uske baad kya hota hai ki Heap space me object ka koi naam nahi hota hai uska sirf ek id yaa address yaa refrence hota hai . Now, ab wo address jaakar us x me store ho jaata hai and that's how a variable is declared in Python memory. For more refrence go to "Function.md". Now, iske baad let say humne next line of code me likha hai x = 7 yaani humne x ki value next line me update kar di hai . Toh memory me hota kya hai , toh hota yeh hai ki phir se again heap memory ka ek new object banega yaani new memory block defined and usme 7 store ho jaayega and this object also have a id . Now, ab Namespace me wapas se new x nahi banega , balki pehle se bane hue x me jo address hoga wo delete ho jaayega and heap me jaha new object bana new memory block uska address store ho jaayega yaani new refrence created in x and ab heap me jo object humne banaya tha pehle jisme 5 tha , kyuki ab uska koi refrence nahi hai stack side toh wo as a "garbage block" ban jaayega and kyuki python garbage ko khud hi delete kar deta hai , isiliye we say ki in python me automatic memory management ho jaati hai . But in other languge yeh kaam hume khud hi karana padta hai like in C and C++ . 
+🟡 Toh sabse pehle Heap space me ek memory space yaa memory block define hota hai and us memory block me value jaati hai 5 as instance object and Namespace me bhi ek memory block banta hai jiska naam hoga "x" and abhi tak us block me koi value nahi gayi hai.Uske baad kya hota hai ki Heap space me memory block ka koi naam nahi hota hai uska sirf ek "id" yaa "address" yaa "refrence" hota hai . Now, ab wo address jaakar us x me store ho jaata hai and that's how a variable is declared in Python memory. For more refrence go to "Function.md". Now, iske baad let say humne next line of code me likha hai x = 7 yaani humne x ki value next line me update kar di hai . Toh memory me hota kya hai , toh hota yeh hai ki phir se again heap memory ka ek new object banega yaani new memory block defined and usme 7 as a instance object store ho jaayega and this memory block also have a "id" . Now, ab Namespace me wapas se new x nahi banega , balki pehle se bane hue x me jo address hoga wo delete ho jaayega and heap me jaha new object bana new memory block uska address store ho jaayega yaani new refrence created in x and ab heap me jo memory block humne banaya tha pehle jisme 5 tha , kyuki ab uska koi refrence nahi hai stack side toh wo as a "garbage block" ban jaayega and kyuki python garbage ko khud hi delete kar deta hai , isiliye we say ki in python me automatic memory management ho jaati hai . But in other languge yeh kaam hume khud hi karana padta hai like in C and C++ like when we use malloc() , calloc() . 
 
 🟡 Remember : HAR WO MEMORY BLOCK IN HEAP SPACE , JISKA KOI REFRENCE YAA VARIABLE NAMESPACE PAR NAHI HOTA HAI , WO EK GARBAGE BLOCK KEHLATA HAI 
 🟡 Remember : Namespace me sirf pointers(yaani address) hi store hote hai , koi data nahi .
-❇️ VERY VERY IMPORTANT POINT : Python me koi Stack memory naam ka concept "nahi" hota hai . Python me Memory and      Call-Stack ka concept hota hai . Memory is divided into two pieces Heap Memory and Namespace Memory . Call Stack me sirf jab function call hote hai toh un function ka  " function frame " aata hai like we do in C language .Call Stack koi Memory store nahi karta hai .    JUST GO TO Function.md file once to understand the whole working in Python .
+❇️ VERY VERY IMPORTANT POINT : Python me koi Stack memory naam ka concept "nahi" hota hai . Python me Memory(Heap and Namespace memory) and Call-Stack ka concept hota hai . Memory is divided into two pieces Heap Memory and Namespace Memory . Call Stack me sirf jab function call hote hai toh un function ka  " function frame " aata hai like we do in C language .Call Stack koi Memory store nahi karta hai .    JUST GO TO "Function.md" file once to understand the whole working in Python .
 
 🟦 VERY IMPORTANT POINT
-Python and C++ dono me runtime par hi stack and heap banta hai and memory allocation hota hai but
+Python and C++ dono me runtime par hi memory allocation hota hai but
 C++ aur C jaisi languages me compile time par hi decide ho jaata hai ki every variable ka type (int, double, Student, etc.) and Uska size (sizeof(int), sizeof(Student)) yaani memory layout pehle hi decide ho jaata hai ki kis variable ke liye runtime par kitni memory allocate hogi . But python me memory layout direct runtime par hi decide hota hai because C++ ko isliye banaya gaya tha ki program bahut fast chale aur programmer ko memory par control mile and Python isliye such that code likhna easy hona chahiye variable ka type mat batao, automatically Python khud hi kar lega run time par ,usse pehle tumhe jo ched-chaad karni hai kar lo .
 
 Runtime yaani .exe file ko run karne se run hone ke beech ka time .
-Runtime me hi Stack and Heap banta hai and memory allocate hoti hai and then one by one to CPU and execution
+Runtime me hi Namespace and Heap me memory allocate hoti hai and then one by one to CPU and execution
 And we see a software running in our PC
+
+Go to ->    "Function.md"  -> To understand :
+1. How code execution happens in Python ?
+2. How variable declaration and initialisation happens in Python ?
+3. How function execution happens in Python ?
+TO UNDERSTAND ANY LANGUAGE WELL , WE NEED TO HAVE KNOW ANSWERS OF THESE QUESTION VERY DEEPLY .
 
 
 🟡 For Example : [BEFORE when x = 5 ](/Images/7.png)
                  [AFTER when x = 7 ](/Images/8.png)           -- For refrence : watch from 45:00      Lecture 2
 
 
-🟡 Remember : Sirf yeh memory block ko hi hum python me "object" nahi kehte hai balki jo data uske andar jaata hai wo always ek object hi hota hai. Kyuki python me x = 5 likhne par sirf 5 hi store nahi hota hai balki yeh store hota hai jisme yeh sab (Memory + Data + Type Information + Behavior (methods) + kuch internal metadata) included rehta hai ,  {Yaani python me variable me kuch bhi store kare that is a object in memory , isiliye toh python variables ki type "class" aati hai naa ki ek keyword kyuki wo value class me jaati hai , class us value ko leta hai usse ek predefined object shape me convert karta hai and then wo object memory me store hota hai } -------For Example:
+🟡 Remember : Memory block ko hum python me "object" nahi kehte hai balki jo data uske andar jaata hai wo always ek object hota hai. Kyuki python me x = 5 likhne par sirf 5 hi store nahi hota hai balki yeh store hota hai jisme yeh sab (Memory + Data + Type Information + Behavior (methods) + kuch internal metadata) included rehta hai as a object,  {Yaani python me variable me kuch bhi store kare that is a object in memory , isiliye toh python variables ki type "class" aati hai naa ki ek keyword kyuki wo value class me jaati hai , class us value ko leta hai usse ek predefined object shape me convert karta hai and then wo object memory me store hota hai } -------For Example:
 
 x = 5 becomes
 +-----------------------+
@@ -88,7 +93,7 @@ Yeh objects bhi divided hai three types me based on data types :
 🟦 print()
 It is a predefined function used to print value of a variable , string or expression same like console.log()
 
-🟡 Remember : Namespace(Stack) me humesha jo variables bante hai use refrence variable kehte hai and yeh refrence variable refer karte hai Heap space me yaa toh kisi "Instance object" ko yaa kisi "Function object" ko yaa toh kisi "Class object" ko . 
+🟡 Remember : Namespace me humesha jo variables bante hai use refrence variable kehte hai and yeh refrence variable refer karte hai Heap space me yaa toh kisi "Instance object" ko yaa kisi "Function object" ko yaa toh kisi "Class object" ko . 
 
 🟡 Remember: x = 5 or x = handleClick()        Is type ke declaration se jo "object" memory me bante hai use hum "Instance object" kehte hai . Yaani x is a refrence object which refers to a instance object 5 in heap space .
 
